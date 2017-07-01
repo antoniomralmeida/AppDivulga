@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".acitivites.GestorRequerimentosActivity">
+    <item
+        android:id="@+id/menu_requerimentos_ativos"
+        android:title="Eventos Ativos" />
+    <item
+        android:id="@+id/menu_requerimentos"
+        android:title="Requerimentos Arquivo" />
+    <item
+        android:id="@+id/menu_cadastrar_campus"
+        android:title="Cadastrar Campus" />
+    <item
+        android:id="@+id/menu_cadastrar_locais"
+        android:title="Cadastrar Locais" />
+    <item
+        android:id="@+id/menu_cadastar_tipos"
+        android:title="Cadastrar Tipos" />
+    <item
+        android:id="@+id/menu_cadastar_gestor"
+        android:title="Cadastrar Gestor" />
+</menu>

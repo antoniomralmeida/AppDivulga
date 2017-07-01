@@ -1,0 +1,96 @@
+<resources>
+    <!--screens name-->
+    <string name="app_recuperar_senha">Recuperar Senha</string>
+    <string name="app_name">App Divulga</string>
+    <string name="app_cadastro_usuario">Cadastro</string>
+    <string name="app_timeLine">Eventos</string>
+    <string name="app_solicitar_requerimentos">Requerimento Evento</string>
+    <string name="app_requerimentos">Meus Requerimentos</string>
+    <string name="app_requerimentos_gestror">Requerimentos Abertos</string>
+
+    <!--img logo-->
+    <string name="logo_app_imd_descricao">imagem logo do app divulga</string>
+
+    <!--login-->
+    <string name="button_login_cadatrar_usuario">Novo? cadastre-se aqui</string>
+    <string name="button_login_entar">Entrar</string>
+    <string name="textView_login_recuperar_senha">esqueci a minha senha</string>
+
+    <!-- hint-->
+    <string name="hint_matricula">Matricula</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_senha">Senha</string>
+    <string name="hint_nome">Nome</string>
+    <string name="hint_telefone">Telefone</string>
+
+
+    <!--editText msg validation-->
+    <string name="error_msg_nome">Digite seu nome </string>
+    <string name="error_msg_email">Digte seu email</string>
+    <string name="error_msg_senha">Digite sua senha com minimo de 6 caracteres</string>
+    <string name="error_msg_matricula">Digite sua matricula</string>
+    <string name="error_msg_telefone">Digite seu telefone</string>
+
+    <string name="error_msg_titulo">Nescessario definir um titulo</string>
+    <string name="error_msg_descricao">Nescessario definir uma descriçao</string>
+    <string name="error_msg_hora">Nescessario definir a hora</string>
+    <string name="error_msg_data">Nescessario definir a data</string>
+    <string name="error_msg_vagas">Nescessario definir o numero de vagas</string>
+    <string name="error_msg_duracao">Nescessario definir a duraçao estimada</string>
+
+    <!--cadastro-->
+    <string name="button_requerimento_confirmar">Confirmar solicitaçao</string>
+    <string name="button_cadastro_confirmar">Confirmar cadastro</string>
+    <string name="textview_label_instituicao">Seleione o campus</string>
+    <string name="textview_label_local">Selecione o local</string>
+    <string name="textview_label_tipo">Selecione o Tipo</string>
+    <string name="hint_requerimento_nome">Titulo</string>
+    <string name="tewtview_reset_senha_label">Para resetar sua senha confirma sua matricula e seu email.</string>
+    <!--spinner-->
+    <string name="digits_date">1234567890/</string>
+    <string name="hint_requerimento_label_data">Selecione a Data</string>
+    <string name="hint_requerimento_label_hora_inicio">Selecione a Hora Inicial</string>
+    <string name="hint_requerimento_label_hora_fim">Selecione a Hora Final</string>
+    <string name="hint_requerimento_vagas">Quantidade de Vagas</string>
+    <string name="hint_textview_label_descricao">Descriçao</string>
+    <string name="textview_label_area">Selecione a Area</string>
+    <string name="error_msg_hora_final">Selecione a hora final do evento</string>
+    <string name="menu_meus_requerimentos">Meus Requerimentos</string>
+    <string name="menu_notificacao">Notificaçao</string>
+    <string name="menu_alterar_senha">Alterar Senha</string>
+    <string name="menu_logof">Logoff</string>
+    <string name="button_resetar_senha">Resetar Senha</string>
+    <string name="button_resetar_senha_voltar">Cancelar</string>
+
+
+    <string-array name="locais">
+        <item>Auditorio</item>
+        <item>Estacionamentos</item>
+        <item>Hall</item>
+        <item>Laboratorio</item>
+        <item>Sala com projetor </item>
+        <item>Sala sem projetor</item>
+    </string-array>
+
+    <string-array name="area">
+        <item>Todas</item>
+        <item>Administraçao</item>
+        <item>Tecnologia</item>
+        <item>Medicina</item>
+    </string-array>
+
+    <string-array name="tipo">
+        <item>Evento</item>
+        <item>Festa</item>
+        <item>Reuniao</item>
+    </string-array>
+
+    <string-array name="campus">
+        <item>Parangaba</item>
+        <item>Moreira franco</item>
+        <item>Agua fria</item>
+    </string-array>
+
+
+</resources>
+

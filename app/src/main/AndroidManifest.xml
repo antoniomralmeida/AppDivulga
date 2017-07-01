@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.appdivulga">
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".acitivites.InicioActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".acitivites.LoginActivity" />
+        <activity
+            android:name=".acitivites.CadastroActivity"
+            android:label="@string/app_cadastro_usuario"
+            android:parentActivityName=".acitivites.LoginActivity"
+            android:theme="@style/AppThemeBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".acitivites.LoginActivity" />
+        </activity>
+        <activity
+            android:name=".acitivites.RecuperarSenhaActivity"
+            android:label="@string/app_recuperar_senha"
+            android:parentActivityName=".acitivites.LoginActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".acitivites.LoginActivity" />
+        </activity>
+        <activity
+            android:name=".acitivites.MainActivity"
+            android:label="@string/app_timeLine"
+            android:theme="@style/AppThemeBar" />
+        <activity
+            android:name=".acitivites.NovoRequerimentoActivity"
+            android:label="@string/app_solicitar_requerimentos"
+            android:parentActivityName=".acitivites.MeusRequerimentosActivity"
+            android:theme="@style/AppThemeBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".acitivites.MeusRequerimentosActivity" />
+        </activity>
+        <activity
+            android:name=".acitivites.MeusRequerimentosActivity"
+            android:label="@string/app_requerimentos"
+            android:parentActivityName=".acitivites.MainActivity"
+            android:theme="@style/AppThemeBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.appdivulga.acitivites.MainActivity" />
+        </activity>
+        <activity
+            android:name=".acitivites.GestorRequerimentosActivity"
+            android:label="@string/app_requerimentos_gestror"
+            android:parentActivityName=".acitivites.MainActivity"
+            android:theme="@style/AppThemeBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.appdivulga.acitivites.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

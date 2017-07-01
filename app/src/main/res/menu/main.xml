@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".acitivites.MainActivity">
+    <item
+        android:id="@+id/menu_requerimentos"
+        android:icon="@drawable/ic_evento"
+        android:title="@string/menu_meus_requerimentos"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_notificacao"
+        android:checkable="true"
+        android:checked="true"
+        android:title="@string/menu_notificacao" />
+    <item
+        android:id="@+id/menu_alterar_senha"
+        android:title="@string/menu_alterar_senha" />
+    <item
+        android:id="@+id/menu_logof"
+        android:orderInCategory="100"
+        android:title="@string/menu_logof" />
+
+</menu>
